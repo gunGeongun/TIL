@@ -1,4 +1,4 @@
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/b8744d0a-f29f-4a40-815c-df66f668c158/image.png)
+![image](https://github.com/user-attachments/assets/07756372-5568-4a0e-8657-711c7f58b355)
 
 ### Insertion Anomaly
 
@@ -12,7 +12,8 @@
 
 - SupplierName에 대한 SupplierPhone 을 수정할때 여러번 수정이 이루어지는 현상이 발생
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/b8fef21c-bb12-461b-b2ec-7d3931983562/image.png)
+![image](https://github.com/user-attachments/assets/0a586e88-cff7-4816-b5f0-abade2371383)
+
 
 ### 1NF 위반
 
@@ -26,7 +27,8 @@ Author , Genre에 다수의 데이터가 한 칸에 들어가있기 때문
 - BookAuthor(BookID, Author)
 - BookGenre(BookID, Genre)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/b32d4d40-4b77-4d0b-85ef-c0f489a21dd1/image.png)
+![image](https://github.com/user-attachments/assets/27927017-6f8f-47ec-9ab7-28280c094d55)
+
 
 ### 2NF 위반
 
@@ -39,9 +41,11 @@ FD2 에서 partial functional dependency가 발생함
 - StudentEnrollment(StudentID, CourseID, Grade)
 - Course(CourseID, CourseName, Credit)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/3adffeca-4431-4271-b672-bd90fd952302/image.png)
+![image](https://github.com/user-attachments/assets/ac45b19f-c78b-497f-a2fb-7fac31480238)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/c931e793-b496-432f-84f7-d86e3dca1f24/image.png)
+
+![image](https://github.com/user-attachments/assets/6f45ae10-d10d-4e9d-9f7b-f93c72dc926a)
+
 
 ## 3NF 위반
 
@@ -49,7 +53,8 @@ FD2 에서 partial functional dependency가 발생함
 - ProductID, CustomerID, SalesRepID는 None Key인데 attribute를 결정하고 있음 → **3NF 위반**
 - transitive dependencies 가 존재
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e1cf07-a08e-4127-afe2-5ef212088702/2a8b23f6-c213-4850-b5e4-e1d1fce349d3/image.png)
+![Uploading image.png…]()
+
 
 ### 3NF를 만족시키기 위한 방법
 
