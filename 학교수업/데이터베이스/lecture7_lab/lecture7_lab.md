@@ -52,8 +52,8 @@ FD2 에서 partial functional dependency가 발생함
 - SaleID는 다른 모든 attribute를 결정할 수 있기때문에 candidate key라고 할 수 있음
 - ProductID, CustomerID, SalesRepID는 None Key인데 attribute를 결정하고 있음 → **3NF 위반**
 - transitive dependencies 가 존재
-
-![Uploading image.png…]()
+- 
+![image](https://github.com/user-attachments/assets/c4eece9a-767c-4393-b273-2ed92308a7f9)
 
 
 ### 3NF를 만족시키기 위한 방법
